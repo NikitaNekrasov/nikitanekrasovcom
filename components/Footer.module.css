@@ -7,7 +7,8 @@
   align-items: center;
 }
 
-.logo {
+.resume {
   height: 1em;
   margin: 5px;
+  font-weight: bold;
 }
