@@ -4,7 +4,9 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        Made with <img src="/netliheart.svg" alt="Netlify Logo" className={styles.logo} /> for you
+        <p>
+          In the meantime, find out more about me<a href="/Nikita_Nekrasov_Resume.pdf" alt="Nikita Nekrasov's Resume" className={styles.resume}>here.</a>
+        </p>
       </footer>
     </>
   )
