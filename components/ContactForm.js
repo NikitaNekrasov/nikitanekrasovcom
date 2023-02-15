@@ -7,11 +7,11 @@ export default function ContactForm() {
                     <input type="hidden" name="form-name" value="contact" />
                     <p>
                         <label htmlFor="name">Your Name:</label>
-                        <input type="text" id="name" name="name" />
+                        <input type="text" id="name" name="name" required/>
                     </p>
                     <p>
                         <label htmlFor="email">Your Email:</label>
-                        <input type="text" id="email" name="email" />
+                        <input type="text" id="email" name="email" required/>
                     </p>
                     <p>
                         <label htmlFor="message">What would you like to talk about?</label>
